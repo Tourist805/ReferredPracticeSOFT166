@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+              integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+              crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script
+                src="https://code.jquery.com/jquery-3.4.1.min.js"
+                integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+                crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" 
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" 
+      crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" 
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" 
+      crossorigin="anonymous"></script>
+  <script src="gametreasure.js"></script>
+
+  <script src="gamecontentmodify.js"></script>
+  <title>Tic Tac Toe</title>
+  <link rel="stylesheet" href="style.css">
+  
+</head>
+<body>
+  <table border="1" cellspacing="0" align="center" width="1400px">
+    <tr height="70px">
+      <td colspan="2" align="center">
+        <div class="header">
+          <h1 align="center" id="HeaderText">Tic Tac Toe</h1>
+        </div>   
+      </td> 
+    </tr>
+
+    <tr height="900px">
+      <td width="150px" >
+        <p>Menu</p>
+        <ul>
+          <li><p><a href="index.html">Game</a></p></li>
+          <li><p><a href="history.html">History of game and stategy</a></p></li>
+          <li><p><a href="contacts.html">Contacts</p></li>
+        </ul>
+        
+      </td> 
+      <td colspan="600px">
+        <div class="content">
+  
+  <p>Tic-tac-toe (American English), noughts and crosses (British English), or Xs and Os is a paper-and-pencil game for two players, X and O, who take turns marking the spaces in a 3×3 grid. The player who succeeds in placing three of their marks in a horizontal, vertical, or diagonal row is the winner.</p>
+  <ul class="catalogue">
+    <li><img src="Tic-Tac-Toe.png" alt="Tic-Tac-Toe example" width="200" height="200">
+  <h4>The diagonal case of wining</h4>
+  <a style="color:white;" href="#"> Cases of wining </a></li>
+  <li><img src="tic_tac_toe_1-small.jpg" alt="Tic-Tac-Toe example" width="800" height="200">
+  <h4>Cases of wining</h4>
+  
+  </ul>
+  <img id="Image" src="image-editing-tools.jpg" alt="Tic-Tac-Toe example" width="800" height="400">
+     <h1 align="center" id="HeaderText1">Change color</h1>
+  <p>X goes first, O goes second</p>
+  <div class="row justify-content-center">
+      <p id="ButtonPara"></p>
+      <button onClick="changeText()">Change color</button>
+    </div>
+    <p></p>
+    <div class="row justify-content-center">
+      <form action="">
+        <input type="text" maxlength="10" id="Name" onKeyUp="checkName()">
+        <label for="Name" id="NameLabel">User's Name</label>
+        <p id="Subtext"></p>
+      </form>
+    </div>
+</div>
+
+   <section>
+        <h1 class="game--title">Game</h1>
+        <div class="game--container">
+            <div data-cell-index="0" class="cell"></div>
+            <div data-cell-index="1" class="cell"></div>
+            <div data-cell-index="2" class="cell"></div>
+            <div data-cell-index="3" class="cell"></div>
+            <div data-cell-index="4" class="cell"></div>
+            <div data-cell-index="5" class="cell"></div>
+            <div data-cell-index="6" class="cell"></div>
+            <div data-cell-index="7" class="cell"></div>
+            <div data-cell-index="8" class="cell"></div>
+        </div>
+        <h2 class="game--status"></h2>
+        <button class="gamerestart">Restart Game</button>
+    </section>
+
+<script src="js.js"></script>
+      </td>
+
+    </tr>
+      <tr height="150px">
+      <td colspan="2">
+        <table style="width:40%">
+  <tr>
+    <th>Name</th>
+    <th colspan="2">Email</th>
+  </tr>
+  <tr>
+    <td>Zhanybek Dauletov</td>
+    <td>zhanybek.dauletov.students@plymouth.ac.uk</td>
+    <td>broni2702@mail.ru</td>
+  </tr>
+  <p></p>
+  <p></p>
+</table>
+      </td> 
+    </tr>
+    </tr>
+  </table>
+  
+
+
+
+
+ 
+  <p></p>
+  <p></p>
+
+
+
+</body>
+</html>

@@ -1,0 +1,96 @@
+#game {
+	width: 540px;
+	height: 540px;
+	background: cornsilk;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+	margin-left: auto;
+	margin-right: auto;  
+	
+}
+
+.block {
+	width: 180px;
+	height: 180px;
+	float: left;
+	border: 10px solid grey;
+	box-sizing: border-box;
+	line-height: 30px;
+	text-align: center;
+	font-size: 150px;
+	text-transform: uppercase;
+}
+h1{
+	text-shadow: 3px 2px blue;
+	font-size: 80px;
+}
+h3{
+	font-size: 30px;
+	margin: left;
+	background-color: black;
+}
+
+body {
+  font-family: Arial;
+  margin: 0;
+   background: #333;
+   color: #fff;
+}
+
+table, th, td {
+  border: 1px solid black;
+  text-align: center;
+  align-content: center;
+   margin-left: auto;
+  margin-right: auto;
+  /*border-collapse: collapse;*/
+}
+th, td {
+  padding: 5px;
+  text-align: center;    
+  font-size: 15px;
+}
+/* Header/Logo Title */
+.header {
+  padding: 40px;
+  text-align: justify-all;
+  background: #1abc9c;
+  color: black;
+  font-size: 30px;
+}
+ul.products li {
+    width: 370px; /* adjust the size of the catalog block */
+    display: inline-block; /* this creates the catalog effect */
+    text-align: center; /* align the image to center */
+    background-color:#282828 ; /* background color of each */
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    border-radius: 10px; /* rounded borders effect */
+    border: 2px solid #585858; /* border and color */
+}
+
+/* Page Content */
+.content {padding:20px;}
+
+section {
+    text-align: center;
+}
+
+.game--container {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 456px;
+    margin: 50px auto;
+}
+
+.cell {
+    font-family: "Permanent Marker", cursive;
+    width: 150px;
+    height: 150px;
+    box-shadow: 0 0 0 1px #333333;
+    border: 1px solid grey;
+    cursor: pointer;
+
+    line-height: 150px;
+    font-size: 60px;
+}
